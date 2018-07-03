@@ -15,10 +15,10 @@
     <!-- This is Squarespace. --><!-- sarahlichang -->
 <!--<base href="">--><base href=".">
 
-<title>Sarah Chang</title>
+<title>Ashfaque Abir</title>
 <link rel="shortcut icon" type="image/x-icon" href="http://www.ashfaqueabir.com/favicon.ico">
 <link rel="canonical" href="http://www.ashfaqueabir.com/">
-<meta property="og:site_name" content="Sarah Chang">
+<meta property="og:site_name" content="Ashfaque Abir">
 <meta property="og:title" content="About">
 <meta property="og:url" content="http://www.ashfaqueabir.com/">
 <meta property="og:type" content="website">
@@ -38,10 +38,10 @@
 wanderlust">
 <script async="" src="<?php echo get_template_directory_uri() . '/assets/analytics.js.download'; ?>"></script><script type="text/javascript" src="./assets/typekitjs.js"></script>
 <style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/ed0e78/00000000000000003b9b0931/27/l?subset_id=2&fvd=n1&v=3) format("woff2"),url(https://use.typekit.net/af/ed0e78/00000000000000003b9b0931/27/d?subset_id=2&fvd=n1&v=3) format("woff"),url(https://use.typekit.net/af/ed0e78/00000000000000003b9b0931/27/a?subset_id=2&fvd=n1&v=3) format("opentype");font-weight:100;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/a?subset_id=2&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/a3eee8/00000000000000003b9b093c/27/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/a3eee8/00000000000000003b9b093c/27/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/a3eee8/00000000000000003b9b093c/27/a?subset_id=2&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/f02b29/00000000000000003b9b0933/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/f02b29/00000000000000003b9b0933/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/f02b29/00000000000000003b9b0933/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/55bd39/00000000000000003b9b093f/27/l?subset_id=2&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/55bd39/00000000000000003b9b093f/27/d?subset_id=2&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/55bd39/00000000000000003b9b093f/27/a?subset_id=2&fvd=n9&v=3) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/256534/00000000000000003b9b0938/27/l?subset_id=2&fvd=i6&v=3) format("woff2"),url(https://use.typekit.net/af/256534/00000000000000003b9b0938/27/d?subset_id=2&fvd=i6&v=3) format("woff"),url(https://use.typekit.net/af/256534/00000000000000003b9b0938/27/a?subset_id=2&fvd=i6&v=3) format("opentype");font-weight:600;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/e85210/00000000000000003b9b093d/27/l?subset_id=2&fvd=i8&v=3) format("woff2"),url(https://use.typekit.net/af/e85210/00000000000000003b9b093d/27/d?subset_id=2&fvd=i8&v=3) format("woff"),url(https://use.typekit.net/af/e85210/00000000000000003b9b093d/27/a?subset_id=2&fvd=i8&v=3) format("opentype");font-weight:800;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/8b7167/00000000000000003b9b093e/27/l?subset_id=2&fvd=i9&v=3) format("woff2"),url(https://use.typekit.net/af/8b7167/00000000000000003b9b093e/27/d?subset_id=2&fvd=i9&v=3) format("woff"),url(https://use.typekit.net/af/8b7167/00000000000000003b9b093e/27/a?subset_id=2&fvd=i9&v=3) format("opentype");font-weight:900;font-style:italic;}</style><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . 'assets/style.css'; ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/style.css'; ?>">
 <script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
 <script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-1933c5523f79a252c1ce-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
-<script crossorigin="anonymous" src="<?php echo get_template_directory_uri() . '/assets/common-min.en-US.js'; ?>"></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//static.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/announcement-bar-72ffba3f3000fb87548f-min.en-US.js"},"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-6c42d60d26f4e09ab1ac335b4bc55b7e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-a94cfac99f3b1fb322ec-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-2bed5fe81bdce85f6f16-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-56713b1663346e1fe5b31a3adb8f31fc-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-671e41cf6a5125024615-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-39d83b1e5d9d400ef8cf-min.en-US.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-c32adaffffa61675d5f238e2ea399b2b-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-c913e435af79c60e6082-min.en-US.js"},"squarespace-commerce-cart":{"js":"//static.squarespace.com/universal/scripts-compressed/commerce-cart-9e727a9e400a087efede-min.en-US.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-05cf073fc485af865b2e5554077a850a-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-1269631ecb37d0779452-min.en-US.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-56713b1663346e1fe5b31a3adb8f31fc-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-95445b742f7a151b9e80-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//static.squarespace.com/universal/scripts-compressed/form-rendering-utils-6cf31448b6d5f6580379-min.en-US.js"},"squarespace-forms":{"css":"//static.squarespace.com/universal/styles-compressed/forms-4af1b5b3c288ba939ea861fe2d37119a-min.css","js":"//static.squarespace.com/universal/scripts-compressed/forms-2af23ff479929b837015-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/gallery-collection-list-3eca0d1089d26196c241-min.en-US.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-fe061fe0084599c7daa9-min.en-US.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-f3d8caf887fd9f4b1a26-min.en-US.js"},"squarespace-popup-overlay":{"css":"//static.squarespace.com/universal/styles-compressed/popup-overlay-6b891e5f689f032ce65af5855c067b4f-min.css","js":"//static.squarespace.com/universal/scripts-compressed/popup-overlay-f09f346bfc0c87d028f6-min.en-US.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-9abaaa4dfff182aa8d4ccf3b6ffdbe8d-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-fc994d07013a660c2625-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-cdb6a815c80ff3c57ee9-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-075df8caf246ca3cde6e-min.en-US.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-9c747eeaabe96dacfea4932a63336f54-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-423365c6fd00f291023d-min.en-US.js"},"squarespace-search-preview":{"js":"//static.squarespace.com/universal/scripts-compressed/search-preview-718a4f5bfea71d5a9cc9-min.en-US.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-17b8dbf723b236936f2b-min.en-US.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-43d46135ddae278789b2-min.en-US.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-7a696232d1cd101fd62b5f174f9ae6ff-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-1017c75fcf7d1ca11193-min.en-US.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-92326edae7f4faaec0b3-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//static.squarespace.com/universal/styles-compressed/website-overlays-manager-923311a5ffb05ecb734ddfc7d9be08bc-min.css","js":"//static.squarespace.com/universal/scripts-compressed/website-overlays-manager-8c3a362b3b262ea193a7-min.en-US.js"}},"pageType":2,"website":{"id":"52a00e0ae4b01fb98657b9eb","identifier":"sarahlichang","websiteType":1,"contentModifiedOn":1506928645719,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-14400000,"timeZoneOffset":-14400000,"timeZoneAbbr":"EDT","siteTitle":"Sarah Chang","siteTagLine":"wanderlust","siteDescription":"<p>Columbia '14 | urbanite | foodie | explorer | aspiring ukulelist | wanderlust&nbsp;</p>","location":{"mapZoom":12.0,"mapLat":40.7143528,"mapLng":-74.0059731,"markerLat":40.7143528,"markerLng":-74.0059731,"addressTitle":"","addressLine1":"","addressLine2":"New York, New York","addressCountry":""},"logoImageId":"52b8e46ae4b0a450b4509ba8","shareButtonOptions":{},"logoImageUrl":"//static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1506928645719/","authenticUrl":"http://www.ashfaqueabir.com","internalUrl":"http://sarahlichang.squarespace.com","baseUrl":"http://www.ashfaqueabir.com","primaryDomain":"www.ashfaqueabir.com","socialAccounts":[{"serviceId":20,"userId":"slc2173@columbia.edu","screenname":"slc2173@columbia.edu","addedOn":1386221649248,"profileUrl":"mailto:slc2173@columbia.edu","iconEnabled":true,"serviceName":"email"},{"serviceId":2,"userId":"624000604","screenname":"Sarah Chang","addedOn":1386257984927,"profileUrl":"http://www.facebook.com/624000604","iconUrl":"http://graph.facebook.com/624000604/picture?type=square","metaData":{"service":"facebook"},"iconEnabled":true,"serviceName":"facebook"},{"serviceId":4,"userId":"150689849","userName":"sarahlichang","screenname":"Sarah Chang","addedOn":1386221624336,"profileUrl":"https://twitter.com/sarahlichang","iconUrl":"http://pbs.twimg.com/profile_images/378800000336219235/63a1c215c1701d020330ef7cf35634cd_normal.jpeg","collectionId":"52a01038e4b0f341dc2a9869","iconEnabled":true,"serviceName":"twitter"},{"serviceId":14,"userId":"6o1Ty1v0vD","userName":"sarahlichang","screenname":"Sarah Chang","addedOn":1386221639060,"profileUrl":"http://www.linkedin.com/in/sarahlichang","iconUrl":"http://m.c.lnkd.licdn.com/mpr/mprx/0_oCf8SdMjzsfXN51EEXxxSwVlvjHIq5CEe5R0SEw2EOpRI3voQk0uio0GUveqBC_QITDYCDJPFmvm","iconEnabled":true,"serviceName":"linkedin"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"screenshotId":"e667415e"},"websiteSettings":{"id":"52a00e0ae4b01fb98657b9ec","websiteId":"52a00e0ae4b01fb98657b9eb","type":"Personal","subjects":[{"systemSubject":"other","otherSubject":"Personal"}],"country":"US","state":"NY","simpleLikingEnabled":false,"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":true,"commentAvatarsOn":false,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":false,"commentEnableByDefault":false,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":true,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"paymentSettings":{},"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"multipleQuantityAllowedForServices":true,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"isLive":false},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"ampEnabled":false},"cookieSettings":{"isRestrictiveCookiePolicyEnabled":false},"websiteCloneable":false,"collection":{"title":"About","id":"52a01aa4e4b0d7c82c6184da","fullUrl":"/","type":10},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","bannerImageHeight":"418px","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Grid","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Simple","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(168,168,168,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0,0,0,0.8)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","product-gallery-auto-crop":"true","product-image-auto-crop":"true"},"templateId":"5093f261e4b0979eac7cb299","pageFeatures":[1,2,4],"impersonatedSession":false,"demoCollections":[{"collectionId":"51255434e4b08b047d2be8eb","deleted":true},{"collectionId":"50b9323ee4b0e7ebf068345e","deleted":true},{"collectionId":"5125543ae4b08b047d2be8fc","deleted":true},{"collectionId":"5125543fe4b08b047d2be906","deleted":true},{"collectionId":"50b93251e4b012760adba1b6","deleted":true},{"collectionId":"50b93262e4b012760adba1da","deleted":true},{"collectionId":"5150ac9be4b0323b0cce6032","deleted":true},{"collectionId":"5159db72e4b022b552c4e355","deleted":false},{"collectionId":"50b7da21e4b05ce4893ea956","deleted":true},{"collectionId":"510048c7e4b08d2a4475064f","deleted":true},{"collectionId":"5093f259e4b0979eac7cb1a2","deleted":true},{"collectionId":"5093f259e4b0979eac7cb1a1","deleted":true},{"collectionId":"51255419e4b0dbe51f91afe5","deleted":true},{"collectionId":"521670afe4b0a9e95ce3d4c3","deleted":true}],"isFacebookTab":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}},"useNewImageLoader":true};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><script type="application/ld+json">{"url":"http://www.ashfaqueabir.com","name":"Sarah Chang","description":"<p>Columbia '14 | urbanite | foodie | explorer | aspiring ukulelist | wanderlust&nbsp;</p>","image":"//static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1506928645719/","@context":"http://schema.org","@type":"WebSite"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<script crossorigin="anonymous" src="<?php echo get_template_directory_uri() . '/assets/common-min.en-US.js'; ?>"></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//static.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/announcement-bar-72ffba3f3000fb87548f-min.en-US.js"},"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-6c42d60d26f4e09ab1ac335b4bc55b7e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-a94cfac99f3b1fb322ec-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-2bed5fe81bdce85f6f16-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-56713b1663346e1fe5b31a3adb8f31fc-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-671e41cf6a5125024615-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-39d83b1e5d9d400ef8cf-min.en-US.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-c32adaffffa61675d5f238e2ea399b2b-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-c913e435af79c60e6082-min.en-US.js"},"squarespace-commerce-cart":{"js":"//static.squarespace.com/universal/scripts-compressed/commerce-cart-9e727a9e400a087efede-min.en-US.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-05cf073fc485af865b2e5554077a850a-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-1269631ecb37d0779452-min.en-US.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-56713b1663346e1fe5b31a3adb8f31fc-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-95445b742f7a151b9e80-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//static.squarespace.com/universal/scripts-compressed/form-rendering-utils-6cf31448b6d5f6580379-min.en-US.js"},"squarespace-forms":{"css":"//static.squarespace.com/universal/styles-compressed/forms-4af1b5b3c288ba939ea861fe2d37119a-min.css","js":"//static.squarespace.com/universal/scripts-compressed/forms-2af23ff479929b837015-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/gallery-collection-list-3eca0d1089d26196c241-min.en-US.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-fe061fe0084599c7daa9-min.en-US.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-f3d8caf887fd9f4b1a26-min.en-US.js"},"squarespace-popup-overlay":{"css":"//static.squarespace.com/universal/styles-compressed/popup-overlay-6b891e5f689f032ce65af5855c067b4f-min.css","js":"//static.squarespace.com/universal/scripts-compressed/popup-overlay-f09f346bfc0c87d028f6-min.en-US.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-9abaaa4dfff182aa8d4ccf3b6ffdbe8d-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-fc994d07013a660c2625-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-cdb6a815c80ff3c57ee9-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-075df8caf246ca3cde6e-min.en-US.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-9c747eeaabe96dacfea4932a63336f54-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-423365c6fd00f291023d-min.en-US.js"},"squarespace-search-preview":{"js":"//static.squarespace.com/universal/scripts-compressed/search-preview-718a4f5bfea71d5a9cc9-min.en-US.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-17b8dbf723b236936f2b-min.en-US.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-43d46135ddae278789b2-min.en-US.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-7a696232d1cd101fd62b5f174f9ae6ff-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-1017c75fcf7d1ca11193-min.en-US.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-92326edae7f4faaec0b3-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//static.squarespace.com/universal/styles-compressed/website-overlays-manager-923311a5ffb05ecb734ddfc7d9be08bc-min.css","js":"//static.squarespace.com/universal/scripts-compressed/website-overlays-manager-8c3a362b3b262ea193a7-min.en-US.js"}},"pageType":2,"website":{"id":"52a00e0ae4b01fb98657b9eb","identifier":"sarahlichang","websiteType":1,"contentModifiedOn":1506928645719,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-14400000,"timeZoneOffset":-14400000,"timeZoneAbbr":"EDT","siteTitle":"Ashfaque Abir","siteTagLine":"wanderlust","siteDescription":"<p>Columbia '14 | urbanite | foodie | explorer | aspiring ukulelist | wanderlust&nbsp;</p>","location":{"mapZoom":12.0,"mapLat":40.7143528,"mapLng":-74.0059731,"markerLat":40.7143528,"markerLng":-74.0059731,"addressTitle":"","addressLine1":"","addressLine2":"New York, New York","addressCountry":""},"logoImageId":"52b8e46ae4b0a450b4509ba8","shareButtonOptions":{},"logoImageUrl":"//static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1506928645719/","authenticUrl":"http://www.ashfaqueabir.com","internalUrl":"http://sarahlichang.squarespace.com","baseUrl":"http://www.ashfaqueabir.com","primaryDomain":"www.ashfaqueabir.com","socialAccounts":[{"serviceId":20,"userId":"slc2173@columbia.edu","screenname":"slc2173@columbia.edu","addedOn":1386221649248,"profileUrl":"mailto:slc2173@columbia.edu","iconEnabled":true,"serviceName":"email"},{"serviceId":2,"userId":"624000604","screenname":"Ashfaque Abir","addedOn":1386257984927,"profileUrl":"http://www.facebook.com/624000604","iconUrl":"http://graph.facebook.com/624000604/picture?type=square","metaData":{"service":"facebook"},"iconEnabled":true,"serviceName":"facebook"},{"serviceId":4,"userId":"150689849","userName":"sarahlichang","screenname":"Ashfaque Abir","addedOn":1386221624336,"profileUrl":"https://twitter.com/sarahlichang","iconUrl":"http://pbs.twimg.com/profile_images/378800000336219235/63a1c215c1701d020330ef7cf35634cd_normal.jpeg","collectionId":"52a01038e4b0f341dc2a9869","iconEnabled":true,"serviceName":"twitter"},{"serviceId":14,"userId":"6o1Ty1v0vD","userName":"sarahlichang","screenname":"Ashfaque Abir","addedOn":1386221639060,"profileUrl":"http://www.linkedin.com/in/sarahlichang","iconUrl":"http://m.c.lnkd.licdn.com/mpr/mprx/0_oCf8SdMjzsfXN51EEXxxSwVlvjHIq5CEe5R0SEw2EOpRI3voQk0uio0GUveqBC_QITDYCDJPFmvm","iconEnabled":true,"serviceName":"linkedin"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"screenshotId":"e667415e"},"websiteSettings":{"id":"52a00e0ae4b01fb98657b9ec","websiteId":"52a00e0ae4b01fb98657b9eb","type":"Personal","subjects":[{"systemSubject":"other","otherSubject":"Personal"}],"country":"US","state":"NY","simpleLikingEnabled":false,"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":true,"commentAvatarsOn":false,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":false,"commentEnableByDefault":false,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":true,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"paymentSettings":{},"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"multipleQuantityAllowedForServices":true,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"isLive":false},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"ampEnabled":false},"cookieSettings":{"isRestrictiveCookiePolicyEnabled":false},"websiteCloneable":false,"collection":{"title":"About","id":"52a01aa4e4b0d7c82c6184da","fullUrl":"/","type":10},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","bannerImageHeight":"418px","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Grid","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Simple","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(168,168,168,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0,0,0,0.8)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","product-gallery-auto-crop":"true","product-image-auto-crop":"true"},"templateId":"5093f261e4b0979eac7cb299","pageFeatures":[1,2,4],"impersonatedSession":false,"demoCollections":[{"collectionId":"51255434e4b08b047d2be8eb","deleted":true},{"collectionId":"50b9323ee4b0e7ebf068345e","deleted":true},{"collectionId":"5125543ae4b08b047d2be8fc","deleted":true},{"collectionId":"5125543fe4b08b047d2be906","deleted":true},{"collectionId":"50b93251e4b012760adba1b6","deleted":true},{"collectionId":"50b93262e4b012760adba1da","deleted":true},{"collectionId":"5150ac9be4b0323b0cce6032","deleted":true},{"collectionId":"5159db72e4b022b552c4e355","deleted":false},{"collectionId":"50b7da21e4b05ce4893ea956","deleted":true},{"collectionId":"510048c7e4b08d2a4475064f","deleted":true},{"collectionId":"5093f259e4b0979eac7cb1a2","deleted":true},{"collectionId":"5093f259e4b0979eac7cb1a1","deleted":true},{"collectionId":"51255419e4b0dbe51f91afe5","deleted":true},{"collectionId":"521670afe4b0a9e95ce3d4c3","deleted":true}],"isFacebookTab":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}},"useNewImageLoader":true};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><script type="application/ld+json">{"url":"http://www.ashfaqueabir.com","name":"Ashfaque Abir","description":"<p>Columbia '14 | urbanite | foodie | explorer | aspiring ukulelist | wanderlust&nbsp;</p>","image":"//static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1506928645719/","@context":"http://schema.org","@type":"WebSite"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&part=4"/><![endif]-->
 <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/52a00e0ae4b01fb98657b9eb/37/5093f261e4b0979eac7cb299/52a00e0ae4b01fb98657b9f0/3303-05142015/1464337727463/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
 <!--[if !IE]> --><link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/site.css'; ?>"><!-- <![endif]-->
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-46292736-1', 'auto');ga('send', 'pageview');</script><!-- End of Squarespace Headers -->
@@ -136,14 +136,6 @@ wanderlust">
         
 
             
-
-            
-
-            
-
-            
-
-            
               <div id="email2" class="form-item field email required">
                 <label class="title" for="email2-field">Email Address <span class="required">*</span></label>
                 
@@ -151,41 +143,6 @@ wanderlust">
               </div>
             
 
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-        
-
-            
-
-            
-
-            
 
             
               <div id="textarea1" class="form-item field textarea required">
@@ -193,47 +150,12 @@ wanderlust">
                 
                 <textarea class="field-element " id="textarea1-field"></textarea>
               </div>
-            
 
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-
-        
 
         </div>
 
       
 
-      
-
-      
       <div class="form-button-wrapper">
         <input class="button sqs-system-button sqs-editable-button" type="submit" value="Submit">
       </div>
@@ -278,6 +200,8 @@ wanderlust">
     <nav id="mobile-navigation" class="mobile-nav">
       
 <div class="nav-wrapper" data-content-field="navigation-mobileNav">
+
+
   <ul>
   
   
@@ -335,7 +259,7 @@ wanderlust">
           <a class="icon-menu" id="mobileMenu"></a><!-- comment the space between elements because science
           --><div class="site-title-wrapper">
             <h1 data-content-field="site-title" class="site-title">
-              <a href="http://www.ashfaqueabir.com/" class="home-link">Sarah Chang</a>
+              <a href="http://www.ashfaqueabir.com/" class="home-link">Ashfaque Abir</a>
             </h1>
           </div><!-- comment the space between elements because science
           --><div class="info-email-wrapper">
@@ -360,8 +284,8 @@ wanderlust">
               <div class="site-title-wrapper">
                 <h1 data-content-field="site-title" class="site-title">
                     
-                     <div class="logo-wrapper"><a href="http://www.ashfaqueabir.com/" class="home-link"><img src="<?php echo get_template_directory_uri() . '/assets/saved_resource'; ?>" alt="Sarah Chang" class="logo"></a></div>
-                     <div class="logo-image-title"><a href="http://www.ashfaqueabir.com/" class="home-link">Sarah Chang</a></div>
+                     <div class="logo-wrapper"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="home-link"><img src="<?php echo get_template_directory_uri() . '/assets/saved_resource'; ?>" alt="Ashfaque Abir" class="logo"></a></div>
+                     <div class="logo-image-title"><a href="http://www.ashfaqueabir.com/" class="home-link">Ashfaque Abir</a></div>
                     
                 </h1>
               </div>
@@ -377,65 +301,9 @@ wanderlust">
             </div>
             
 <div class="nav-wrapper" data-content-field="navigation-mainNav">
-  <ul class="cf">
-  
-    
 
-    
-    <li class=" active-link"><a href="http://www.ashfaqueabir.com/">About</a></li>
-    
+<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 
-    
-    
-  
-    
-
-    
-    <li class=""><a href="http://www.ashfaqueabir.com/work/">Work</a></li>
-    
-
-    
-    
-  
-    
-
-    
-    <li class=""><a href="http://www.ashfaqueabir.com/map/">Map</a></li>
-    
-
-    
-    
-  
-    
-
-    
-    <li class=""><a href="http://www.ashfaqueabir.com/thoughtsketches/">Thought Sketches</a></li>
-    
-
-    
-    
-  
-    
-
-    
-    <li class=""><a href="http://www.ashfaqueabir.com/photography/">Photography</a></li>
-    
-
-    
-    
-  
-    
-
-    
-    <li class=""><a href="http://www.ashfaqueabir.com/musings/">Musings</a></li>
-    
-
-    
-    
-  
-
-  
-  </ul>
 </div>
 
 
@@ -468,12 +336,12 @@ wanderlust">
               <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1464337682209" id="page-52a01aa4e4b0d7c82c6184da"><div class="row sqs-row" id="yui_3_17_2_1_1530175745063_67"><div class="col sqs-col-3 span-3" id="yui_3_17_2_1_1530175745063_66"><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_10_1_1_1397842617391_6560"><div class="sqs-block-content" id="yui_3_17_2_1_1530175745063_65"> 
 
   
-    <div class="image-block-outer-wrapper layout-caption-below design-layout-inline sqs-narrow-width" id="yui_3_17_2_1_1530175745063_64">
+    <div class="image-block-outer-wrapper layout-caption-below design-layout-inline sqs-narrow-width" id="">
     
-      <div class="intrinsic" style="max-width:142.0px;" id="yui_3_17_2_1_1530175745063_63">
+      <div class="intrinsic" style="max-width:142.0px;" id="">
         
-          <div style="padding-bottom: 98.5915%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio" data-description="" id="yui_3_17_2_1_1530175745063_62">
-            <noscript><img src="https://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/5351631ae4b0c67c912d34bd/1397842715628/"  /></noscript><img class="thumb-image loaded" data-src="https://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/5351631ae4b0c67c912d34bd/1397842715628/" data-image="https://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/5351631ae4b0c67c912d34bd/1397842715628/" data-image-dimensions="142x140" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5351631ae4b0c67c912d34bd" data-type="image" data-position-mode="standard" src="<?php echo get_template_directory_uri() . '/assets/saved_resource(1).jpg'; ?>" style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;" data-image-resolution="300w">
+          <div style="padding-bottom: 100%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio">
+            <img class="thumb-image" data-image="<?php the_post_thumbnail('thumbnail'); ?>">
           </div>
         
 
@@ -485,7 +353,26 @@ wanderlust">
   
 
 
-</div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-8765bfad595255fcb0cc"><div class="sqs-block-content"><p>Hi, I'm Sarah.&nbsp;</p><p>Urbanite. Foodie. Explorer. Aspiring ukulelist. &nbsp;</p><p><a target="_blank" href="https://en.wikipedia.org/wiki/San_Francisco">San Francisco</a> via <a target="_blank" href="http://en.wikipedia.org/wiki/New_York_City">New York City</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/London">London</a>,&nbsp;and <a target="_blank" href="http://en.wikipedia.org/wiki/Chicago">Chicago</a>. Alumna of <a target="_blank" href="http://en.wikipedia.org/wiki/Columbia_University">Columbia University</a>&nbsp;and <a target="_blank" href="http://en.wikipedia.org/wiki/University_of_Oxford">Oxford University</a>.</p><p>Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy, fabulous food, and even better conversations.</p><p>Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me.</p><p>Say hi on Twitter <a target="_blank" href="http://twitter.com/sarahlichang">@sarahlichang</a>&nbsp;</p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+</div></div></div>
+
+
+<?php
+while ( have_posts() ) :
+	the_post();
+
+	get_template_part( 'template-parts/content', 'home' );
+
+	// If comments are open or we have at least one comment, load up the comment template.
+	if ( comments_open() || get_comments_number() ) :
+		comments_template();
+	endif;
+
+endwhile; // End of the loop.
+?>
+		
+</div>
+
+<div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
             </div>
         </div>
         </section>
@@ -527,7 +414,7 @@ wanderlust">
     </a>
   </nav>
 </div></div></div></div></div></div>
-        <div class="sqs-layout sqs-grid-1 columns-1" data-layout-label="Right Footer Content" data-type="block-field" data-updated-on="1483824824581" id="footerBlockRight"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-852853dd3293acdeca15"><div class="sqs-block-content"><p class="text-align-right">Copyright 2017.&nbsp;</p></div></div></div></div></div>
+        <div class="sqs-layout sqs-grid-1 columns-1" data-layout-label="Right Footer Content" data-type="block-field" data-updated-on="1483824824581" id="footerBlockRight"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-852853dd3293acdeca15"><div class="sqs-block-content"><p class="text-align-right">Copyright 2018.&nbsp;</p></div></div></div></div></div>
       </footer>
     </div> <!-- end .outer-wrapper -->
 

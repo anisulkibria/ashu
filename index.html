@@ -75,15 +75,15 @@ img.emoji {
 }
 
 </style>
-<link rel="stylesheet" id="cup-of-jo-style-css" href="<?php echo get_template_directory_uri() . '/assets-blog/style.css'; ?>" type="text/css" media="all">
-<link rel="stylesheet" id="jetpack_css-css" href="<?php echo get_template_directory_uri() . '/assets-blog/jetpack.css'; ?>" type="text/css" media="all">
-<link rel="stylesheet" id="googleFonts-css" href="<?php echo get_template_directory_uri() . '/assets-blog/css'; ?>" type="text/css" media="all">
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jquery.js.download'; ?>"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jquery-migrate.min.js.download'; ?>"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jquery.fitvids.js.download'; ?>"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jquery.bxslider.min.js.download'; ?>"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/validation.js.download'; ?>"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/theme.js.download'; ?>"></script>
+<link rel="stylesheet" id="cup-of-jo-style-css" href="./assets-blog/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./assets-blog/jetpack.css" type="text/css" media="all">
+<link rel="stylesheet" id="googleFonts-css" href="./assets-blog/css" type="text/css" media="all">
+<script type="text/javascript" src="./assets-blog/jquery.js.download"></script>
+<script type="text/javascript" src="./assets-blog/jquery-migrate.min.js.download"></script>
+<script type="text/javascript" src="./assets-blog/jquery.fitvids.js.download"></script>
+<script type="text/javascript" src="./assets-blog/jquery.bxslider.min.js.download"></script>
+<script type="text/javascript" src="./assets-blog/validation.js.download"></script>
+<script type="text/javascript" src="./assets-blog/theme.js.download"></script>
 <link rel="https://api.w.org/" href="https://cupofjo.com/wp-json/">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cupofjo.com/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cupofjo.com/wp-includes/wlwmanifest.xml"> 
@@ -200,14 +200,22 @@ ga('send', 'pageview');
 </script>
 	<div id="page">
 		<header id="site-header" role="banner">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
+			<a href="https://cupofjo.com/" class="logo">
 				
-                    <img src="<?php echo get_template_directory_uri() . '/assets/saved_resource'; ?>" onerror="this.onerror=null; this.src=&#39;https://cupofjo.com/wp-content/themes/cupofjo/assets/images/headers/header-home-1.jpg&#39;" alt="A Cup of Jo">
+                    <img src="./assets-blog/header-food.jpg" onerror="this.onerror=null; this.src=&#39;https://cupofjo.com/wp-content/themes/cupofjo/assets/images/headers/header-home-1.jpg&#39;" alt="A Cup of Jo">
 
                 			</a>
 
 			<nav id="access" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'desktop-nav' ) ); ?>
+                <ul class="desktop-nav">
+				    <li id="menu-item-56568" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56568"><a href="https://cupofjo.com/category/style/">Style</a></li>
+<li id="menu-item-6186" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-6186"><a href="https://cupofjo.com/category/food/">Food</a></li>
+<li id="menu-item-6172" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6172"><a href="https://cupofjo.com/category/design/">Design</a></li>
+<li id="menu-item-56569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56569"><a href="https://cupofjo.com/category/travel/">Travel</a></li>
+<li id="menu-item-6197" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6197"><a href="https://cupofjo.com/category/relationships/">Relationships</a></li>
+<li id="menu-item-6210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6210"><a href="https://cupofjo.com/category/motherhood/">Motherhood</a></li>
+                    <li class="search-trigger"><i class="icon-search"></i></li>
+                </ul>
                 <ul class="mobile-nav">
                 	<li class="nav-trigger"><i class="icon-menu"></i> MENU</li>
                 	<li class="search-trigger"><i class="icon-search"></i></li>
