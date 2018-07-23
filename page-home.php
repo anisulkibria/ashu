@@ -259,7 +259,7 @@ wanderlust">
           <a class="icon-menu" id="mobileMenu"></a><!-- comment the space between elements because science
           --><div class="site-title-wrapper">
             <h1 data-content-field="site-title" class="site-title">
-              <a href="http://www.ashfaqueabir.com/" class="home-link">Ashfaque Abir</a>
+              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="home-link">Ashfaque Abir</a>
             </h1>
           </div><!-- comment the space between elements because science
           --><div class="info-email-wrapper">
@@ -285,7 +285,7 @@ wanderlust">
                 <h1 data-content-field="site-title" class="site-title">
                     
                      <div class="logo-wrapper"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="home-link"><img src="<?php echo get_template_directory_uri() . '/assets/saved_resource'; ?>" alt="Ashfaque Abir" class="logo"></a></div>
-                     <div class="logo-image-title"><a href="http://www.ashfaqueabir.com/" class="home-link">Ashfaque Abir</a></div>
+                     <div class="logo-image-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="home-link">Ashfaque Abir</a></div>
                     
                 </h1>
               </div>
@@ -414,7 +414,7 @@ endwhile; // End of the loop.
     </a>
   </nav>
 </div></div></div></div></div></div>
-        <div class="sqs-layout sqs-grid-1 columns-1" data-layout-label="Right Footer Content" data-type="block-field" data-updated-on="1483824824581" id="footerBlockRight"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-852853dd3293acdeca15"><div class="sqs-block-content"><p class="text-align-right">Copyright 2018.&nbsp;</p></div></div></div></div></div>
+        <div class="sqs-layout sqs-grid-1 columns-1" data-layout-label="Right Footer Content" data-type="block-field" data-updated-on="1483824824581" id="footerBlockRight"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-852853dd3293acdeca15"><div class="sqs-block-content"><p class="text-align-right"><!--Copyright 2018.&nbsp;--></p></div></div></div></div></div>
       </footer>
     </div> <!-- end .outer-wrapper -->
 

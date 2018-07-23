@@ -9,51 +9,22 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
 
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				ashfaqueabir_posted_on();
-				ashfaqueabir_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
 
-	<?php ashfaqueabir_post_thumbnail(); ?>
+<div class="grid-item jpibfi_container">
+	<a href="<?php echo esc_url( get_permalink() );?>" rel="bookmark" title="This Salad Is a Flavor Explosion" data-target="<?php echo esc_url( get_permalink() );?>" data-name="grilled-radicchio-salad">
+		<input class="jpibfi" type="hidden"><img width="363" height="245" src="<?php $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb_url; ?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-target="<?php echo esc_url( get_permalink() );?>" data-name="grilled-radicchio-salad" data-title="This Salad Is a Flavor Explosion" data-jpibfi-post-excerpt="" data-jpibfi-post-url="<?php echo esc_url( get_permalink() );?>" data-jpibfi-post-title="This Salad Is a Flavor Explosion" data-jpibfi-src="<?php echo get_template_directory_uri() . '/assets-blog/WhatsGabyCooking_p082-363x245.jpg'; ?>" data-jpibfi-indexer="5">	</a>
+	<div class="caption"">
+		<a href="<?php echo esc_url( get_permalink() );?>" rel="bookmark" title="A Secret Ingredient for Killer Guacamole"><h4 data-title="<?php the_title(); ?>" data-target="<?php echo esc_url( get_permalink() );?>" data-name="easy-pea-guacamole"><?php the_title(); ?></h4></a>
+		<div class="excerpt"><p><?php the_excerpt(); ?></p></div>
+		<div class="secondary-caption">
+			<span class="entry-date">May 2, 2018</span>
+			<div class="mini-comments-link">
+				<a href="<?php echo esc_url( get_permalink() );?>#comments"><img src="./blogpage_files/comment-small.png"> 170</a>
+			</div>
+		</div>
+	</div>
+</div>
 
-	<div class="entry-content">
-		<?php
-		the_content( sprintf(
-			wp_kses(
-				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'ashfaqueabir' ),
-				array(
-					'span' => array(
-						'class' => array(),
-					),
-				)
-			),
-			get_the_title()
-		) );
 
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ashfaqueabir' ),
-			'after'  => '</div>',
-		) );
-		?>
-	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php ashfaqueabir_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->

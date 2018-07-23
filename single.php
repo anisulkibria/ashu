@@ -200,7 +200,7 @@ ga('send', 'pageview');
 </script>
 	<div id="page">
 		<header id="site-header" role="banner">
-			<a href="https://cupofjo.com/" class="logo">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
 				
                     <img src="<?php echo get_template_directory_uri() . '/assets/saved_resource'; ?>" onerror="this.onerror=null; this.src=&#39;https://cupofjo.com/wp-content/themes/cupofjo/assets/images/headers/header-home-1.jpg&#39;" alt="A Cup of Jo">
 
@@ -228,9 +228,9 @@ ga('send', 'pageview');
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6197"><a href="https://cupofjo.com/category/relationships/">Relationships</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6210"><a href="https://cupofjo.com/category/motherhood/">Motherhood</a></li>
 </ul></nav>		</div><!-- #access -->
-        <div id="loading" style="display: block;">
-            <p class="text-center"><img src="./singlepage_files/loading.gif"></p>
-        </div>
+        <!--<div id="loading" style="display: block;">
+            <p class="text-center"><img src="<?php echo get_template_directory_uri() . '/assets-blog/loading.gif'; ?>"></p>
+        </div>-->
 		<div id="main">
 <section id="primary" role="main">
 	<div id="temp-container" style="display: block;">
@@ -242,42 +242,19 @@ ga('send', 'pageview');
 	
 	<header class="entry-header">
 	<h3><a href="https://cupofjo.com/category/food/">Food</a></h3>
-	<h2><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/" title="Permalink to This Salad Is a Flavor Explosion" rel="bookmark">This Salad Is a Flavor Explosion</a>
+	<h2><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/" title="Permalink to This Salad Is a Flavor Explosion" rel="bookmark"><?php the_title(); ?></a>
 	</h2>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
-				<input class="jpibfi" type="hidden"><p><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/"><img src="./singlepage_files/WhatsGabyCooking_p082.jpg" alt="Grilled Radicchio Salad" width="1000" height="1250" class="alignnone size-full wp-image-178434" srcset="https://cupofjo.com/wp-content/uploads/2018/06/WhatsGabyCooking_p082.jpg 1000w, https://cupofjo.com/wp-content/uploads/2018/06/WhatsGabyCooking_p082-386x483.jpg 386w, https://cupofjo.com/wp-content/uploads/2018/06/WhatsGabyCooking_p082-768x960.jpg 768w, https://cupofjo.com/wp-content/uploads/2018/06/WhatsGabyCooking_p082-680x850.jpg 680w" sizes="(max-width: 1000px) 100vw, 1000px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2018/06/grilled-radicchio-salad/" data-jpibfi-post-title="This Salad Is a Flavor Explosion" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2018/06/WhatsGabyCooking_p082.jpg"></a></p>
-<p>Who wants to be stuck in the kitchen when you could be outside basking in the summer sun? To wrap up our month of <a href="https://cupofjo.com/tag/salads/" rel="noopener" target="_blank">summer salads</a>, we’re sharing a delicious recipe you make mostly on the grill from Gaby Dalkin’s new cookbook, <a href="https://amzn.to/2Kn4mgF" rel="noopener" target="_blank">What’s Gaby Cooking</a>. Here’s how to make it…<span id="more-178433"></span></p>
-<p><strong>Grilled Radicchio Salad<br>
-From Gaby Dalkin’s <a href="https://amzn.to/2Kn4mgF" rel="noopener" target="_blank">What’s Gaby Cooking</a></strong> </p>
-<p>You’ll barely find me in the kitchen in the summer. That’s because I basically live outside — whether it’s on my patio, in Malibu by the beach or anywhere else with a chair and umbrella. Especially in California, it’s just too damn nice to spending a lot of time inside cooking. But there’s no way I’d take a season off from making food, so I take the kitchen outside with me (hello, grill) and also stick to dishes that don’t need a ton of prep. This salad checks both boxes, giving a smokiness to the radicchio that pairs so perfectly with sweet citrus, salty prosciutto and blue cheese. </p>
-<p>Recipe: Grilled Radicchio Salad<br>
-Serves 8</p>
-<p>You’ll need:</p>
-<p>8 thin slices prosciutto<br>
-2 heads radicchio, cut into quarters<br>
-Olive oil<br>
-Kosher salt and freshly cracked black pepper<br>
-2 large navel oranges, peeled and sliced<br>
-1/2 cup toasted hazelnuts, crushed<br>
-2 oz. crumbled blue cheese</p>
-<p>Heat a large nonstick skillet over medium-high heat. Carefully place 4 pieces of the prosciutto in the skillet and cook for 2 minutes on each side, until the prosciutto shrinks considerably and crisps up. Remove from the skillet and transfer to a clean surface. Repeat with the remaining prosciutto.</p>
-<p>Preheat an outdoor grill or grill pan to high heat. Brush all cut sides of the radicchio with oil and season with salt and pepper. Place the radicchio on the grill cut side down and grill for 2 minutes per side, until just slightly charred and softened. Remove from the grill and place on a serving platter. Arrange the orange slices over and around the radicchio. Sprinkle with the toasted hazelnuts, crumble the crisped prosciutto on top and finish with the crumbled blue cheese. Drizzle heavily with vinaigrette and serve immediately.</p>
-<p>Optional:</p>
-<p><em>For the citrus-fennel vinaigrette:</em><br>
-1/4 cup fresh orange juice<br>
-2 tbsp fresh lemon juice<br>
-1 tbsp Champagne vinegar<br>
-1 tsp Dijon mustard<br>
-1/3 cup olive oil<br>
-1 shallot, finely minced<br>
-1 tsp fennel seeds, toasted and crushed<br>
-1 clove garlic, minced<br>
-Kosher salt and freshly cracked black pepper to taste</p>
-<p>If you want to make the citrus vinaigrette from scratch, combine all the ingredients in a medium bowl and whisk to combine. Taste and adjust salt and pepper as needed. (As always, store-bought dressing works just fine, too!)</p>
-<p><strong>Thank you so much, <a href="https://whatsgabycooking.com/" rel="noopener" target="_blank">Gaby</a>! We love your <a href="https://amzn.to/2Kn4mgF" rel="noopener" target="_blank">cookbook</a>. </strong></p>
-<p>P.S. <a href="https://cupofjo.com/category/food/" rel="noopener" target="_blank">More recipes</a>, including <a href="https://cupofjo.com/2017/06/grilled-greek-salad/" rel="noopener" target="_blank">grilled Greek salad</a> and <a href="https://cupofjo.com/2018/05/cantaloupe-lemonade/" rel="noopener" target="_blank">five-minute cantaloupe lemonade</a>. </p>
-<p>(From <a href="https://amzn.to/2Kn4mgF" rel="noopener" target="_blank">What’s Gaby Cooking</a> by Gaby Dalkin, published by Abrams Books, c 2018. Thanks to Franny Eremin for helping with this series.)</p>
+	<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);?>
+				<input class="jpibfi" type="hidden"><p><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/"><img src="<?php echo $thumb_url[0]; ?>" alt="Grilled Radicchio Salad" width="1000" height="1250" class="alignnone size-full wp-image-178434" srcset="<?php echo $thumb_url[0]; ?> 1000w, <?php echo $thumb_url[0]; ?> 386w, <?php echo $thumb_url[0]; ?> 768w, <?php $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb_url; ?> 680w" sizes="(max-width: 1000px) 100vw, 1000px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2018/06/grilled-radicchio-salad/" data-jpibfi-post-title="This Salad Is a Flavor Explosion" data-jpibfi-src="<?php echo $thumb_url[0]; ?>"></a></p>
+<?php 
+if ( have_posts() ) : while ( have_posts() ) : the_post();
+  the_content();
+endwhile;
+endif;
+?>
+
 	</div><!-- .entry-content -->
 	
 	<div class="post-tags">Tags: <span><a href="https://cupofjo.com/tag/salads/" rel="tag">salads</a></span></div>

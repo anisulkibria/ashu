@@ -216,7 +216,7 @@ ga('send', 'pageview');
 
 		</header><!-- #branding -->
         <div class="search-dropdown">
-            <form method="get" id="searchform" action="https://cupofjo.com/">
+            <form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<input type="text" class="field" name="s" id="s" placeholder="What are you looking for?">
 	<button type="submit" class="submit" name="submit" id="searchsubmit"><i class="icon-search"></i></button>
 </form>        </div>
