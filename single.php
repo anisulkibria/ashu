@@ -2604,118 +2604,22 @@ gridCaption();
 											</ol>
 					<a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/#" class="load-more" style="display: block;"><em>load more</em></a>
 				</div>
-			    		<!-- top level cat -->    				<div class="widget series-module">
-						<a href="https://cupofjo.com/category/food/basic-food-series/">
-							<img src="./singlepage_files/Screen-Shot-2015-06-03-at-4.07.56-PM-363x245.png" alt="Best Recipes">							<h4 class="widget-title">Food</h4>
-							<h3 class="widget-title">Best Recipes</h3>
-						</a>
-					</div>
-    		    				<div class="widget series-module">
-						<a href="https://cupofjo.com/category/food/entertaining/">
-							<img src="./singlepage_files/entertaining1-363x245.png" alt="Entertaining Ideas">							<h4 class="widget-title">Food</h4>
-							<h3 class="widget-title">Entertaining Ideas</h3>
-						</a>
-					</div>
-    		    				<div class="widget series-module">
-						<a href="https://cupofjo.com/category/food/quick-dinners/">
-							<img src="./singlepage_files/Screen-Shot-2015-05-03-at-6.01.46-PM-363x245.png" alt="Quick Dinners">							<h4 class="widget-title">Food</h4>
-							<h3 class="widget-title">Quick Dinners</h3>
-						</a>
-					</div>
+			    		<!-- top level cat -->    				
     		    
 		    
-	
-	<aside id="text-8" class="widget widget_text">			<div class="textwidget"><!-- Connexity JS ad tag for Cupofjo : Medium Rectangle -->
-<div id="cxt_o3dc4a" style="display:inline-block;min-width:300px;min-height:250px;">
-<script type="text/javascript">
-(function(){var p={ V: '14', S: '2ff', F: '3', W: 300, H: 250, B: '74'};
-_CXT_T["3"].q.push(function(){window._CXT_T["3"].v("cxt_o3dc4a",p);});})();
-</script><iframe src="javascript:false" width="300" height="250" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" id="CoNn0" style="padding: 0px; margin: 0px; position: relative; left: 0px; top: 0px;" data-cxttag="https://connexity.net/c/cse?a=J&amp;F=3&amp;H=250&amp;S=2ff&amp;B=74&amp;V=14&amp;W=300&amp;G=1&amp;R=1366x768c24&amp;T=41&amp;J=https%3A%2F%2Fcupofjo.com%2Fcategory%2Ffood%2F" __idm_frm__="555" src="./singlepage_files/saved_resource.html"></iframe></div></div>
-		</aside>
 
 </div><!-- #secondary .widget-area -->		</div><!-- #main -->
 
 </div><!-- #page -->
 
 
-<div class="recommended">
-	<div class="inner">
-		<h4>You Might Also Like</h4>
-		<div class="post-grid" style="text-align: justify;">
-			<!-- style -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2016/09/statement-earrings-trend-2016/" rel="bookmark" title="Cool Earrings">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./singlepage_files/her-new-tribe-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2016/09/statement-earrings-trend-2016/" data-jpibfi-post-title="Cool Earrings" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2016/09/her-new-tribe-363x245.jpg">					</a>
-					<div class="caption" style="height: 44px;">
-						<strong><a href="https://cupofjo.com/category/style/">STYLE</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2016/09/statement-earrings-trend-2016/" rel="bookmark" title="Cool Earrings">Cool Earrings</a></div>	
-					</div>
-				</div>
-						<!-- food -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2017/03/ten-easy-salad-upgrades/" rel="bookmark" title="8 Common Salad Mistakes">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./singlepage_files/best-caesar-salad-recipe-1-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2017/03/ten-easy-salad-upgrades/" data-jpibfi-post-title="8 Common Salad Mistakes" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2017/03/best-caesar-salad-recipe-1-363x245.jpg">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/food/">FOOD</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2017/03/ten-easy-salad-upgrades/" rel="bookmark" title="8 Common Salad Mistakes">8 Common Salad Mistakes</a></div>	
-					</div>
-				</div>
-						<!-- design -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2016/12/mari-andrew-funny-illustrations-holidays/" rel="bookmark" title="What Do You Order on Dates?">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./singlepage_files/date-363x245.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2016/12/mari-andrew-funny-illustrations-holidays/" data-jpibfi-post-title="What Do You Order on Dates?" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2016/12/date-363x245.png">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/design/">DESIGN</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2016/12/mari-andrew-funny-illustrations-holidays/" rel="bookmark" title="What Do You Order on Dates?">What Do You Order on Dates?</a></div>	
-					</div>
-				</div>
-						<!-- travel -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2016/08/vermont-family-summer-vacation/" rel="bookmark" title="Quick Trip to Vermont">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./singlepage_files/IMG_8540-1-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2016/08/vermont-family-summer-vacation/" data-jpibfi-post-title="Quick Trip to Vermont" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2016/08/IMG_8540-1-363x245.jpg">					</a>
-					<div class="caption" style="height: 44px;">
-						<strong><a href="https://cupofjo.com/category/travel/">TRAVEL</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2016/08/vermont-family-summer-vacation/" rel="bookmark" title="Quick Trip to Vermont">Quick Trip to Vermont</a></div>	
-					</div>
-				</div>
-			
-			<!-- relationships -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2017/05/talking-on-the-phone/" rel="bookmark" title="Do You Still Talk on the Phone?">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./singlepage_files/phone-2-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2017/05/talking-on-the-phone/" data-jpibfi-post-title="Do You Still Talk on the Phone?" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2017/05/phone-2-363x245.jpg">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/relationships/">RELATIONSHIPS</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2017/05/talking-on-the-phone/" rel="bookmark" title="Do You Still Talk on the Phone?">Do You Still Talk on the Phone?</a></div>	
-					</div>
-				</div>
-						<!-- motherhood -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2017/03/family-core-values/" rel="bookmark" title="How Would You Describe Your Family in Three Words?">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./singlepage_files/joanna-goddard-toby-anton-airplane-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2017/03/family-core-values/" data-jpibfi-post-title="How Would You Describe Your Family in Three Words?" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2015/12/joanna-goddard-toby-anton-airplane-363x245.jpg">					</a>
-					<div class="caption" style="height: 90px;">
-						<strong><a href="https://cupofjo.com/category/motherhood/">MOTHERHOOD</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2017/03/family-core-values/" rel="bookmark" title="How Would You Describe Your Family in Three Words?">How Would You Describe Your Family in Three Words?</a></div>	
-					</div>
-				</div>
-									
-   			<div class="related-placeholder"></div>
-			<div class="related-placeholder"></div>
-			<div class="related-placeholder"></div>
-   		</div>
-   	</div>
-</div>
-
-
 
 <footer id="colophon" role="contentinfo">
 	<div class="inner">
 		<div class="footer-about">
-			<strong>About A Cup of Jo</strong>
-			<p>Welcome! A Cup of Jo is a daily lifestyle site for women. We cover everything from&nbsp;fashion to culture to parenthood, and we strive to be authentic. As Olive Kitteridge said, "There's no such thing as a simple life." Thank you for reading.
-
-
-
-</p>
+			<strong>About Ashfaque Abir</strong>
+<p style="text-align: left;">লিখালিখি টা হয়তবা বালখিল্যতা বা অতি আবেগ,তবে লিখাটা আমি শুধু মনের তাগিদেই লিখি।</p>
+			
 			<a href="https://cupofjo.com/about/"><em>read more</em></a>
 		</div>
 		<div class="footer-navigation">

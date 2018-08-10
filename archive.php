@@ -43,10 +43,10 @@
 <link rel="alternate" type="application/rss+xml" title="A Cup of Jo » Feed" href="https://cupofjo.com/feed/">
 <link rel="alternate" type="application/rss+xml" title="A Cup of Jo » Comments Feed" href="https://cupofjo.com/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="A Cup of Jo » Food Category Feed" href="https://cupofjo.com/category/food/feed/">
-		<script async="" src="./blogpage_files/analytics.js.download"></script><script async="" type="text/javascript" src="./blogpage_files/gpt.js.download"></script><script type="text/javascript" async="" src="./blogpage_files/init.3.0.js.download"></script><script type="text/javascript">
+		<script async="" src="./blogpage_files/analytics.js.download"></script><script async="" type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/gpt.js.download'; ?>"></script><script type="text/javascript" async="" src="<?php echo get_template_directory_uri() . '/assets-blog/init.3.0.js.download'; ?>"></script><script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cupofjo.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script><script src="./blogpage_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		</script><script src="<?php echo get_template_directory_uri() . '/assets-blog/wp-emoji-release.min.js.download'; ?>" type="text/javascript" defer=""></script>
 		<style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -61,9 +61,9 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel="stylesheet" id="yarppWidgetCss-css" href="./blogpage_files/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="jpibfi-style-css" href="./blogpage_files/client.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-polls-css" href="./blogpage_files/polls-css.css" type="text/css" media="all">
+<link rel="stylesheet" id="yarppWidgetCss-css" href="<?php echo get_template_directory_uri() . '/assets-blog/widget.css'; ?>" type="text/css" media="all">
+<link rel="stylesheet" id="jpibfi-style-css" href="<?php echo get_template_directory_uri() . '/assets-blog/client.css'; ?>" type="text/css" media="all">
+<link rel="stylesheet" id="wp-polls-css" href="<?php echo get_template_directory_uri() . '/assets-blog/polls-css.css'; ?>" type="text/css" media="all">
 <style id="wp-polls-inline-css" type="text/css">
 .wp-polls .pollbar {
 	margin: 1px;
@@ -109,8 +109,8 @@ img.emoji {
 	var e=document.getElementsByTagName('script')[0];e.parentNode.insertBefore(s,e);})();
 	</script>
 			<!-- Easy Columns 2.1.1 by Pat Friedl http://www.patrickfriedl.com -->
-			<link rel="stylesheet" href="./blogpage_files/easy-columns.css" type="text/css" media="screen, projection">
-			    <script src="./blogpage_files/test.js.download"></script>
+			<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets-blog/easy-columns.css'; ?>" type="text/css" media="screen, projection">
+			    <script src="<?php echo get_template_directory_uri() . '/assets-blog/test.js.download'; ?>"></script>
 
     <script type="text/javascript">
         var googletag = googletag || {};
@@ -128,7 +128,7 @@ img.emoji {
     </script>
 
 
-<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><link rel="preload" href="./blogpage_files/f.txt" as="script"><script type="text/javascript" src="./blogpage_files/f.txt"></script><script src="./blogpage_files/pubads_impl_225.js.download" async=""></script><style type="text/css">.backpack.dropzone {
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><link rel="preload" href="<?php echo get_template_directory_uri() . '/assets-blog/f.txt'; ?>" as="script"><script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/f.txt'; ?>"></script><script src="<?php echo get_template_directory_uri() . '/assets-blog/pubads_impl_225.js.download'; ?>" async=""></script><style type="text/css">.backpack.dropzone {
   font-family: 'SF UI Display', 'Segoe UI';
   font-size: 15px;
   text-align: center;
@@ -281,7 +281,7 @@ gridCaption();
 	<aside id="cup-of-jo-about-widget-2" class="widget widget_cup-of-jo-about-widget">		
 			<div class="about-widget">
 				<a href="https://cupofjo.com/about/">
-					<img src="./blogpage_files/about-joanna-1.jpg" alt="ASHFAQUE ABIR">
+					<img src="<?php echo get_template_directory_uri() . '/assets-blog/about-joanna-1.jpg'; ?>" alt="ASHFAQUE ABIR">
 					<h4>About / Contact</h4>
 					<h3>ASHFAQUE ABIR</h3>
 				</a>
@@ -315,118 +315,25 @@ gridCaption();
 											</ol>
 					<a href="https://cupofjo.com/category/food/#" class="load-more" style="display: block;"><em>load more</em></a>
 				</div>
-			    		<!-- top level cat -->    				<div class="widget series-module">
-						<a href="https://cupofjo.com/category/food/basic-food-series/">
-							<img src="./blogpage_files/Screen-Shot-2015-06-03-at-4.07.56-PM-363x245.png" alt="Best Recipes">							<h4 class="widget-title">Food</h4>
-							<h3 class="widget-title">Best Recipes</h3>
-						</a>
-					</div>
-    		    				<div class="widget series-module">
-						<a href="https://cupofjo.com/category/food/drinks/">
-							<img src="./blogpage_files/Screen-Shot-2015-05-03-at-3.26.07-PM-363x245.png" alt="Drinks">							<h4 class="widget-title">Food</h4>
-							<h3 class="widget-title">Drinks</h3>
-						</a>
-					</div>
-    		    				<div class="widget series-module">
-						<a href="https://cupofjo.com/category/food/quick-dinners/">
-							<img src="./blogpage_files/Screen-Shot-2015-05-03-at-6.01.46-PM-363x245.png" alt="Quick Dinners">							<h4 class="widget-title">Food</h4>
-							<h3 class="widget-title">Quick Dinners</h3>
-						</a>
-					</div>
-    		    
+			    		<!-- top level cat -->    			
 		    
-	
-	<aside id="text-8" class="widget widget_text">			<div class="textwidget"><!-- Connexity JS ad tag for Cupofjo : Medium Rectangle -->
-<div id="cxt_o3dc4a" style="display:inline-block;min-width:300px;min-height:250px;">
-<script type="text/javascript">
-(function(){var p={ V: '14', S: '2ff', F: '3', W: 300, H: 250, B: '74'};
-_CXT_T["3"].q.push(function(){window._CXT_T["3"].v("cxt_o3dc4a",p);});})();
-</script><iframe src="javascript:false" width="300" height="250" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" id="CoNn0" style="padding: 0px; margin: 0px; position: relative; left: 0px; top: 0px;" data-cxttag="https://connexity.net/c/cse?a=J&amp;F=3&amp;H=250&amp;S=2ff&amp;B=74&amp;V=14&amp;W=300&amp;G=1&amp;R=1366x768c24&amp;T=40&amp;J=https%3A%2F%2Fcupofjo.com%2Fcategory%2Ffood%2F" __idm_frm__="253" src="./blogpage_files/saved_resource.html"></iframe></div></div>
-		</aside>
+
 
 </div><!-- #secondary .widget-area -->		</div><!-- #main -->
 
 </div><!-- #page -->
 
 
-<div class="recommended">
-	<div class="inner">
-		<h4>You Might Also Like</h4>
-		<div class="post-grid" style="text-align: justify;">
-			<!-- style -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2018/03/clothes-i-wear-all-the-time/" rel="bookmark" title="Seven Everyday Clothes I Swear By">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="<?php echo get_template_directory_uri() . '/assets-blog/joanna-363x245.jpg'; ?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2018/03/clothes-i-wear-all-the-time/" data-jpibfi-post-title="Seven Everyday Clothes I Swear By" data-jpibfi-src="<?php echo get_template_directory_uri() . '/assets-blog/joanna-363x245.jpg'; ?>"></a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/style/">STYLE</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2018/03/clothes-i-wear-all-the-time/" rel="bookmark" title="Seven Everyday Clothes I Swear By">Seven Everyday Clothes I Swear By</a></div>	
-					</div>
-				</div>
-						<!-- food -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2016/10/baked-apple-crumble-cake/" rel="bookmark" title="Apple Crumb Cake">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./blogpage_files/apple-crumb-cake2-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2016/10/baked-apple-crumble-cake/" data-jpibfi-post-title="Apple Crumb Cake" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2016/09/apple-crumb-cake2-363x245.jpg">					</a>
-					<div class="caption" style="height: 44px;">
-						<strong><a href="https://cupofjo.com/category/food/">FOOD</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2016/10/baked-apple-crumble-cake/" rel="bookmark" title="Apple Crumb Cake">Apple Crumb Cake</a></div>	
-					</div>
-				</div>
-						<!-- design -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2016/08/fun-weekend-links/" rel="bookmark" title="Have a Delicious Weekend.">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./blogpage_files/benwagner-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2016/08/fun-weekend-links/" data-jpibfi-post-title="Have a Delicious Weekend." data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2016/08/benwagner-363x245.jpg">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/design/">DESIGN</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2016/08/fun-weekend-links/" rel="bookmark" title="Have a Delicious Weekend.">Have a Delicious Weekend.</a></div>	
-					</div>
-				</div>
-						<!-- travel -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2017/05/italy-family-travel-with-kids/" rel="bookmark" title="Where Would You Travel in Italy?">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./blogpage_files/antonia_Area-1-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2017/05/italy-family-travel-with-kids/" data-jpibfi-post-title="Where Would You Travel in Italy?" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2017/05/antonia_Area-1-363x245.jpg">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/travel/">TRAVEL</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2017/05/italy-family-travel-with-kids/" rel="bookmark" title="Where Would You Travel in Italy?">Where Would You Travel in Italy?</a></div>	
-					</div>
-				</div>
-			
-			<!-- relationships -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2017/07/best-things-to-say-to-someone-in-grief/" rel="bookmark" title="What to Say to a Grieving Friend">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./blogpage_files/hug-subway-cdr-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2017/07/best-things-to-say-to-someone-in-grief/" data-jpibfi-post-title="What to Say to a Grieving Friend" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2017/07/hug-subway-cdr-363x245.jpg">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/relationships/">RELATIONSHIPS</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2017/07/best-things-to-say-to-someone-in-grief/" rel="bookmark" title="What to Say to a Grieving Friend">What to Say to a Grieving Friend</a></div>	
-					</div>
-				</div>
-						<!-- motherhood -->
-							<div class="mini-grid-item jpibfi_container">
-					<a href="https://cupofjo.com/2016/09/babysitter-first-time-ugly-volvo/" rel="bookmark" title="Getting a Babysitter for the First Time">
-						<input class="jpibfi" type="hidden"><img width="363" height="245" src="./blogpage_files/baby-363x245.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2016/09/babysitter-first-time-ugly-volvo/" data-jpibfi-post-title="Getting a Babysitter for the First Time" data-jpibfi-src="https://cupofjo.com/wp-content/uploads/2016/09/baby-363x245.jpg">					</a>
-					<div class="caption" style="height: 67px;">
-						<strong><a href="https://cupofjo.com/category/motherhood/">MOTHERHOOD</a></strong>
-						<div class="excerpt"><a href="https://cupofjo.com/2016/09/babysitter-first-time-ugly-volvo/" rel="bookmark" title="Getting a Babysitter for the First Time">Getting a Babysitter for the First Time</a></div>	
-					</div>
-				</div>
-									
-   			<div class="related-placeholder"></div>
-			<div class="related-placeholder"></div>
-			<div class="related-placeholder"></div>
-   		</div>
-   	</div>
-</div>
 
 
 
 <footer id="colophon" role="contentinfo">
 	<div class="inner">
 		<div class="footer-about">
-			<strong>About A Cup of Jo</strong>
-			<p>Welcome! A Cup of Jo is a daily lifestyle site for women. We cover everything from&nbsp;fashion to culture to parenthood, and we strive to be authentic. As Olive Kitteridge said, "There's no such thing as a simple life." Thank you for reading.
+			<strong>About Ashfaque Abir</strong>
 
+<p style="text-align: left;">লিখালিখি টা হয়তবা বালখিল্যতা বা অতি আবেগ,তবে লিখাটা আমি শুধু মনের তাগিদেই লিখি।</p>
 
-
-</p>
 			<a href="https://cupofjo.com/about/"><em>read more</em></a>
 		</div>
 		<div class="footer-navigation">
@@ -622,32 +529,32 @@ mailChimp();
 var infinite_scroll = "{\"loading\":{\"msgText\":\"<img src=\\\"https:\\\/\\\/cupofjo.com\\\/wp-content\\\/uploads\\\/2015\\\/05\\\/loading.gif\\\" alt=\\\"\\\" width=\\\"220\\\" height=\\\"19\\\" class=\\\"alignleft size-full wp-image-46025\\\" \\\/><em>Loading...<\\\/em>\",\"finishedMsg\":\"\",\"img\":\"https:\\\/\\\/cupofjo.com\\\/wp-content\\\/uploads\\\/2015\\\/05\\\/loading.gif\"},\"nextSelector\":\"#nav-below a\",\"navSelector\":\"#nav-below\",\"itemSelector\":\"article.post,.grid-item\",\"contentSelector\":\".category #content\",\"debug\":false,\"behavior\":\"\",\"callback\":\"jQuery(document).ready(function($){\\r\\n$('#infscr-loading').remove();\\r\\n$('.grid-item-placeholder').insertAfter('.grid-item:last-of-type');\\r\\n$('.post-grid').css('text-align','justify');\\r\\n});\"}";
 /* ]]> */
 </script>
-<script type="text/javascript" src="./blogpage_files/jquery.infinitescroll.js.download"></script>
-<script type="text/javascript" src="./blogpage_files/devicepx-jetpack.js.download"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jquery.infinitescroll.js.download'; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/devicepx-jetpack.js.download'; ?>"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
 var jpibfi_options = {"hover":{"siteTitle":"A Cup of Jo","image_selector":".jpibfi_container img","disabled_classes":"nopin;wp-smiley","enabled_classes":"","min_image_height":0,"min_image_height_small":0,"min_image_width":0,"min_image_width_small":0,"show_on":"[front],[single],[category],[archive],[search],[home]","disable_on":",144241,144126,144245,144248,144250,144251,144254,144256,144270,144274,144283,144288,144294,144295,144297,144298,144299,144300,144307,144309,144320,157736,157658,157738,157747,157749,157751,157753,157756,157777,157778,157779,157780,157781,157783,157788,157789,157790,157791,157792,157795,157796,157798,157799,157801,157815,157816,157817,157822,157824,157827,157829,157831,157834,157836,157841,157844,157846,157847,157848,157851,157852,157863,157864,157873,157883,157893,157895,157905,157919,157923,157928,157929,157935,157938,157944,157946,157962,157965,157966","show_button":"hover","button_margin_bottom":25,"button_margin_top":25,"button_margin_left":25,"button_margin_right":25,"button_position":"3","description_option":["img_title","img_alt","post_title"],"pinLinkedImages":true,"transparency_value":0,"pin_image":"custom","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"https:\/\/cupofjo.com\/wp-content\/uploads\/2015\/02\/pin-it-button.png","use_post_url":"1","retina_friendly":"0","pinImageWidth":75,"pinImageHeight":25,"scroll_selector":""}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="./blogpage_files/jpibfi.client.js.download"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jpibfi.client.js.download'; ?>"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
 var pollsL10n = {"ajax_url":"https:\/\/cupofjo.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="./blogpage_files/polls-js.js.download"></script>
-<script type="text/javascript" src="./blogpage_files/wp-embed.min.js.download"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/polls-js.js.download'; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/wp-embed.min.js.download'; ?>"></script>
 <script type="text/javascript">
 // Because the `wp_localize_script` method makes everything a string
 infinite_scroll = jQuery.parseJSON(infinite_scroll);
 
 jQuery( infinite_scroll.contentSelector ).infinitescroll( infinite_scroll, function(newElements, data, url) { eval(infinite_scroll.callback); });
 </script>
-<script type="text/javascript" src="./blogpage_files/e-201827.js.download" async="async" defer="defer"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/e-201827.js.download'; ?>" async="async" defer="defer"></script>
 <script type="text/javascript">
 	_stq = window._stq || [];
 	_stq.push([ 'view', {v:'ext',j:'1:6.1',blog:'90732908',post:'0',tz:'-4',srv:'cupofjo.com'} ]);
 	_stq.push([ 'clickTrackerInit', '90732908', '0' ]);
 </script>
 
-<img src="./blogpage_files/g.gif" alt=":)" width="6" height="5" id="wpstats"></body></html>
+<img src="<?php echo get_template_directory_uri() . '/assets-blog/g.gif'; ?>" alt=":)" width="6" height="5" id="wpstats"></body></html>
