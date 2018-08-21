@@ -22,20 +22,19 @@
 <meta property="og:title" content="About">
 <meta property="og:url" content="http://www.ashfaqueabir.com/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="http://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1387848813772/Signature+2.png?format=1000w">
+<meta property="og:image" content="<?php echo get_template_directory_uri() . 'assets/saved_resource'; ?>">
 <meta property="og:image:width" content="1000">
 <meta property="og:image:height" content="407">
 <meta itemprop="name" content="About">
 <meta itemprop="url" content="http://www.ashfaqueabir.com/">
-<meta itemprop="thumbnailUrl" content="http://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1387848813772/Signature+2.png?format=1000w">
-<link rel="image_src" href="http://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1387848813772/Signature+2.png?format=1000w">
-<meta itemprop="image" content="http://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1387848813772/Signature+2.png?format=1000w">
+<meta itemprop="thumbnailUrl" content="<?php echo get_template_directory_uri() . 'assets/saved_resource'; ?>">
+<link rel="image_src" href="<?php echo get_template_directory_uri() . 'assets/saved_resource'; ?>">
+<meta itemprop="image" content="<?php echo get_template_directory_uri() . 'assets/saved_resource'; ?>">
 <meta name="twitter:title" content="About">
-<meta name="twitter:image" content="http://static1.squarespace.com/static/52a00e0ae4b01fb98657b9eb/t/52b8e46ae4b0a450b4509ba8/1387848813772/Signature+2.png?format=1000w">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri() . 'assets/saved_resource'; ?>">
 <meta name="twitter:url" content="http://www.ashfaqueabir.com/">
 <meta name="twitter:card" content="summary">
-<meta name="description" content="Columbia &#39;14 | urbanite | foodie | explorer | aspiring ukulelist | 
-wanderlust">
+<meta name="description" content="Ashfaque Ahmed | Ashfaque Abir">
 <script async="" src="<?php echo get_template_directory_uri() . '/assets/analytics.js.download'; ?>"></script><script type="text/javascript" src="./assets/typekitjs.js"></script>
 <style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/ed0e78/00000000000000003b9b0931/27/l?subset_id=2&fvd=n1&v=3) format("woff2"),url(https://use.typekit.net/af/ed0e78/00000000000000003b9b0931/27/d?subset_id=2&fvd=n1&v=3) format("woff"),url(https://use.typekit.net/af/ed0e78/00000000000000003b9b0931/27/a?subset_id=2&fvd=n1&v=3) format("opentype");font-weight:100;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/a?subset_id=2&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/a3eee8/00000000000000003b9b093c/27/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/a3eee8/00000000000000003b9b093c/27/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/a3eee8/00000000000000003b9b093c/27/a?subset_id=2&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/f02b29/00000000000000003b9b0933/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/f02b29/00000000000000003b9b0933/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/f02b29/00000000000000003b9b0933/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/55bd39/00000000000000003b9b093f/27/l?subset_id=2&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/55bd39/00000000000000003b9b093f/27/d?subset_id=2&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/55bd39/00000000000000003b9b093f/27/a?subset_id=2&fvd=n9&v=3) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/256534/00000000000000003b9b0938/27/l?subset_id=2&fvd=i6&v=3) format("woff2"),url(https://use.typekit.net/af/256534/00000000000000003b9b0938/27/d?subset_id=2&fvd=i6&v=3) format("woff"),url(https://use.typekit.net/af/256534/00000000000000003b9b0938/27/a?subset_id=2&fvd=i6&v=3) format("opentype");font-weight:600;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/e85210/00000000000000003b9b093d/27/l?subset_id=2&fvd=i8&v=3) format("woff2"),url(https://use.typekit.net/af/e85210/00000000000000003b9b093d/27/d?subset_id=2&fvd=i8&v=3) format("woff"),url(https://use.typekit.net/af/e85210/00000000000000003b9b093d/27/a?subset_id=2&fvd=i8&v=3) format("opentype");font-weight:800;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/8b7167/00000000000000003b9b093e/27/l?subset_id=2&fvd=i9&v=3) format("woff2"),url(https://use.typekit.net/af/8b7167/00000000000000003b9b093e/27/d?subset_id=2&fvd=i9&v=3) format("woff"),url(https://use.typekit.net/af/8b7167/00000000000000003b9b093e/27/a?subset_id=2&fvd=i9&v=3) format("opentype");font-weight:900;font-style:italic;}</style><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/assets/style.css'; ?>">
@@ -288,28 +287,28 @@ endwhile; // End of the loop.
       <footer id="footer" class="cf">
         <div class="sqs-layout sqs-grid-1 columns-1" data-layout-label="Left Footer Content" data-type="block-field" data-updated-on="1386264004195" id="footerBlockLeft"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block socialaccountlinks-block sqs-block-socialaccountlinks" data-block-type="48" id="block-838feb588df63715f192"><div class="sqs-block-content"><div class="sqs-svg-icon--outer social-icon-alignment-left social-icons-color-black social-icons-size-small social-icons-shape-circle social-icons-style-knockout">
   <nav class="sqs-svg-icon--list">
-    <a href="http://www.facebook.com/624000604" target="_blank" class="sqs-svg-icon--wrapper facebook">
+    <a href="http://www.facebook.com/###" target="_blank" class="sqs-svg-icon--wrapper facebook">
       <div>
         <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
           <use class="sqs-use--icon" xlink:href="#facebook-icon"></use>
           <use class="sqs-use--mask" xlink:href="#facebook-mask"></use>
         </svg>
       </div>
-    </a><a href="http://www.linkedin.com/in/sarahlichang" target="_blank" class="sqs-svg-icon--wrapper linkedin">
+    </a><a href="http://www.linkedin.com/in/###" target="_blank" class="sqs-svg-icon--wrapper linkedin">
       <div>
         <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
           <use class="sqs-use--icon" xlink:href="#linkedin-icon"></use>
           <use class="sqs-use--mask" xlink:href="#linkedin-mask"></use>
         </svg>
       </div>
-    </a><a href="https://twitter.com/sarahlichang" target="_blank" class="sqs-svg-icon--wrapper twitter">
+    </a><a href="https://twitter.com/###" target="_blank" class="sqs-svg-icon--wrapper twitter">
       <div>
         <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
           <use class="sqs-use--icon" xlink:href="#twitter-icon"></use>
           <use class="sqs-use--mask" xlink:href="#twitter-mask"></use>
         </svg>
       </div>
-    </a><a href="mailto:slc2173@columbia.edu" target="_blank" class="sqs-svg-icon--wrapper email">
+    </a><a href="mailto:###@###.edu" target="_blank" class="sqs-svg-icon--wrapper email">
       <div>
         <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
           <use class="sqs-use--icon" xlink:href="#email-icon"></use>
