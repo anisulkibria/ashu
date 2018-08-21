@@ -4,7 +4,8 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Food - Recipes and Entertaining - A Cup of Jo</title>
+    <title><?php 	$category = get_the_category();
+			$catname = $category[0]->cat_name; echo $catname;?></title>
 
     <!-- favicon & links -->
     <link rel="shortcut icon" href="https://cupofjo.com/wp-content/themes/cupofjo/coj-favicon.ico?v=2" type="image/x-icon">
@@ -17,36 +18,7 @@
     <![endif]-->
 
     
-<!-- This site is optimized with the Yoast SEO plugin v7.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="A collection of our favorite recipes, entertaining tips and etiquette.">
-<link rel="canonical" href="https://cupofjo.com/category/food/">
-<link rel="next" href="https://cupofjo.com/category/food/page/2/">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="object">
-<meta property="og:title" content="Food - Recipes and Entertaining - A Cup of Jo">
-<meta property="og:description" content="A collection of our favorite recipes, entertaining tips and etiquette.">
-<meta property="og:url" content="https://cupofjo.com/category/food/">
-<meta property="og:site_name" content="A Cup of Jo">
-<meta property="og:image" content="https://cupofjo.com/wp-content/uploads/2015/05/jo_homepage.jpg">
-<meta property="og:image:secure_url" content="https://cupofjo.com/wp-content/uploads/2015/05/jo_homepage.jpg">
-<meta property="og:image:width" content="600">
-<meta property="og:image:height" content="450">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:description" content="A collection of our favorite recipes, entertaining tips and etiquette.">
-<meta name="twitter:title" content="Food - Recipes and Entertaining - A Cup of Jo">
-<meta name="twitter:site" content="@joannagoddard">
-<meta name="twitter:image" content="https://cupofjo.com/wp-content/uploads/2015/05/jo_homepage.jpg">
-<!-- / Yoast SEO plugin. -->
 
-<link rel="dns-prefetch" href="https://s0.wp.com/">
-<link rel="dns-prefetch" href="https://s.w.org/">
-<link rel="alternate" type="application/rss+xml" title="A Cup of Jo » Feed" href="https://cupofjo.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="A Cup of Jo » Comments Feed" href="https://cupofjo.com/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="A Cup of Jo » Food Category Feed" href="https://cupofjo.com/category/food/feed/">
-		<script async="" src="./blogpage_files/analytics.js.download"></script><script async="" type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/gpt.js.download'; ?>"></script><script type="text/javascript" async="" src="<?php echo get_template_directory_uri() . '/assets-blog/init.3.0.js.download'; ?>"></script><script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cupofjo.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script><script src="<?php echo get_template_directory_uri() . '/assets-blog/wp-emoji-release.min.js.download'; ?>" type="text/javascript" defer=""></script>
 		<style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -128,76 +100,10 @@ img.emoji {
     </script>
 
 
-<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><link rel="preload" href="<?php echo get_template_directory_uri() . '/assets-blog/f.txt'; ?>" as="script"><script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/f.txt'; ?>"></script><script src="<?php echo get_template_directory_uri() . '/assets-blog/pubads_impl_225.js.download'; ?>" async=""></script><style type="text/css">.backpack.dropzone {
-  font-family: 'SF UI Display', 'Segoe UI';
-  font-size: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 150px;
-  font-weight: lighter;
-  color: white;
-  will-change: right;
-  z-index: 2147483647;
-  bottom: 20%;
-  background: #333;
-  position: fixed;
-  user-select: none;
-  transition: left .5s, right .5s;
-  right: 0px; }
-  .backpack.dropzone .animation {
-    height: 80px;
-    width: 250px;
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
-  .backpack.dropzone .title::before {
-    content: 'Save to'; }
-  .backpack.dropzone.closed {
-    right: -250px; }
-  .backpack.dropzone.hover .animation {
-    animation: sxt-play-anim-hover 0.91s steps(21);
-    animation-fill-mode: forwards;
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
-
-@keyframes sxt-play-anim-hover {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -5250px; } }
-  .backpack.dropzone.saving .title::before {
-    content: 'Saving to'; }
-  .backpack.dropzone.saving .animation {
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
-    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
-
-@keyframes sxt-play-anim-saving {
-  100% {
-    background-position: -14750px; } }
-  .backpack.dropzone.saved .title::before {
-    content: 'Saved to'; }
-  .backpack.dropzone.saved .animation {
-    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
-    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
-
-@keyframes sxt-play-anim-saved {
-  100% {
-    background-position: -5000px; } }
-</style></head>
+</head>
 
 <body class="archive category category-food category-13 published_2018">
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-4898556-2', 'auto');
-ga('send', 'pageview');
-
-
-</script>
 	<div id="page">
 		<header id="site-header" role="banner">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
@@ -221,13 +127,17 @@ ga('send', 'pageview');
 	<button type="submit" class="submit" name="submit" id="searchsubmit"><i class="icon-search"></i></button>
 </form>        </div>
         <div class="overlay-nav" role="navigation">
-        	<nav class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56568"><a href="https://cupofjo.com/category/style/">Style</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-6186"><a href="https://cupofjo.com/category/food/">Food</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6172"><a href="https://cupofjo.com/category/design/">Design</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56569"><a href="https://cupofjo.com/category/travel/">Travel</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6197"><a href="https://cupofjo.com/category/relationships/">Relationships</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6210"><a href="https://cupofjo.com/category/motherhood/">Motherhood</a></li>
-</ul></nav>		</div><!-- #access -->
+        	<nav class="menu-main-menu-container">
+<?php 
+wp_nav_menu( array(
+    'theme_location' => 'main-menu',
+    'container' => 'ul',
+	'menu_id'=> 'menu-main-menu-1',
+    'menu_class'=> 'menu'
+ ) );
+ ?>			
+			
+			</nav>		</div><!-- #access -->
         <div id="loading" style="display:none;">
             <p class="text-center"><img src="<?php echo get_template_directory_uri() . '/assets/loading.gif'; ?>"></p>
         </div>
@@ -281,7 +191,7 @@ gridCaption();
 	<aside id="cup-of-jo-about-widget-2" class="widget widget_cup-of-jo-about-widget">		
 			<div class="about-widget">
 				<a href="https://cupofjo.com/about/">
-					<img src="<?php echo get_template_directory_uri() . '/assets-blog/about-joanna-1.jpg'; ?>" alt="ASHFAQUE ABIR">
+					<img src="<?php echo get_template_directory_uri() . '/assets-blog/about_ashfaque.jpg'; ?>" alt="ASHFAQUE ABIR">
 					<h4>About / Contact</h4>
 					<h3>ASHFAQUE ABIR</h3>
 				</a>
@@ -294,27 +204,11 @@ gridCaption();
 									<a href="https://www.pinterest.com/joannagoddard/" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
 									<a href="https://www.instagram.com/cupofjo" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
 							</div>
-							<a href="https://cupofjo.com/contact/" class="contact-page-link"><em>contact me</em></a>
+							<a href="<?php echo esc_url( home_url( '/যোগাযোগ/' ) ); ?>" class="contact-page-link"><em>contact me</em></a>
 					
 		</aside>
 
-	    						<div class="widget popular">
-					<h4 class="widget-title">Food</h4>
-					<h3 class="widget-title">MOST POPULAR</h3>
-					<ol>
-													<li style="display: list-item;"><a href="https://cupofjo.com/2017/03/very-easy-dinner-party/">A Very Easy Dinner Party</a></li>
-													<li style="display: list-item;"><a href="https://cupofjo.com/2016/09/trader-joes-meal-hacks/">Three Trader Joe’s Meal Hacks</a></li>
-													<li style="display: list-item;"><a href="https://cupofjo.com/2015/06/best-easy-recipes-of-all-time/">12 Favorite Recipes of All Time</a></li>
-													<li style="display: list-item;"><a href="https://cupofjo.com/2017/06/best-work-lunch-idea/">The $2 Meal That Changed My Budget</a></li>
-													<li style="display: list-item;"><a href="https://cupofjo.com/2017/03/lunch-ideas-smitten-kitchen/">A Bodega Challenge With Smitten Kitchen</a></li>
-													<li style="display: none;"><a href="https://cupofjo.com/2015/08/on-drinking-alone/">Cheers to Me</a></li>
-													<li style="display: none;"><a href="https://cupofjo.com/2016/09/family-rituals/">What Are Your Family’s Signature Dinners?</a></li>
-													<li style="display: none;"><a href="https://cupofjo.com/2015/01/a-trick-for-choosing-wine/">A Trick For Choosing Wine</a></li>
-													<li style="display: none;"><a href="https://cupofjo.com/2018/03/i-dont-like-sharing-at-restaurants/">Do or Don’t: Sharing Food at Restaurants</a></li>
-													<li style="display: none;"><a href="https://cupofjo.com/2018/06/anthony-bourdain-cookbooks-grief/">Why I Never Feel Alone When I Cook</a></li>
-											</ol>
-					<a href="https://cupofjo.com/category/food/#" class="load-more" style="display: block;"><em>load more</em></a>
-				</div>
+
 			    		<!-- top level cat -->    			
 		    
 
@@ -331,28 +225,27 @@ gridCaption();
 	<div class="inner">
 		<div class="footer-about">
 			<strong>About Ashfaque Abir</strong>
-
 <p style="text-align: left;">লিখালিখি টা হয়তবা বালখিল্যতা বা অতি আবেগ,তবে লিখাটা আমি শুধু মনের তাগিদেই লিখি।</p>
-
-			<a href="https://cupofjo.com/about/"><em>read more</em></a>
+			
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><em>read more</em></a>
 		</div>
 		<div class="footer-navigation">
-			<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-56477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56477"><a href="https://cupofjo.com/category/style/">Style</a></li>
-<li id="menu-item-6474" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-6474"><a href="https://cupofjo.com/category/food/">Food</a></li>
-<li id="menu-item-6458" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6458"><a href="https://cupofjo.com/category/design/">Design</a></li>
-<li id="menu-item-56567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56567"><a href="https://cupofjo.com/category/travel/">Travel</a></li>
-<li id="menu-item-6482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6482"><a href="https://cupofjo.com/category/relationships/">Relationships</a></li>
-<li id="menu-item-6499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6499"><a href="https://cupofjo.com/category/motherhood/">Motherhood</a></li>
-<li id="menu-item-7002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7002"><a href="https://cupofjo.com/about/">About</a></li>
-<li id="menu-item-7008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7008"><a href="https://cupofjo.com/contact/">Contact</a></li>
-<li id="menu-item-7013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7013"><a href="https://cupofjo.com/faq/">FAQ</a></li>
+			<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-56477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56477"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-6474" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-6474"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-6458" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6458"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-56567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56567"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-6482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6482"><a href="https://cupofjo.com/category/relationships/">###</a></li>
+<li id="menu-item-6499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6499"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-7002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7002"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-7008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7008"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
+<li id="menu-item-7013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7013"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
 </ul></div>			<div class="footer-social">
 				<h3>Let's Hang Out</h3>
 				<div class="social-links">
-											<a href="https://www.facebook.com/cupofjoblog" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
-											<a href="https://twitter.com/joannagoddard" target="_blank" class="social-link twitter"><i class="icon-twitter"></i></a>
-											<a href="https://www.pinterest.com/joannagoddard/" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
-											<a href="https://www.instagram.com/cupofjo" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
+											<a href="https://www.facebook.com/###" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
+											<a href="https://twitter.com/###" target="_blank" class="social-link twitter"><i class="icon-twitter"></i></a>
+											<a href="https://www.pinterest.com/###" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
+											<a href="https://www.instagram.com/###" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
 									</div>
 			</div>
 		</div>
