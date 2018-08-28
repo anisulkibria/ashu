@@ -6,6 +6,7 @@
  *
  * @package ashfaqueabir
  */
+?>
 
 <div id="secondary" class="widget-area" role="complementary">
 	<aside id="cup-of-jo-about-widget-2" class="widget widget_cup-of-jo-about-widget">		

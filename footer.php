@@ -10,7 +10,6 @@
  */
 
 ?>
-
 <footer id="colophon" role="contentinfo">
 	<div class="inner">
 		<div class="footer-about">
@@ -20,16 +19,21 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><em>read more</em></a>
 		</div>
 		<div class="footer-navigation">
-			<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-56477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56477"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-6474" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-6474"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-6458" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6458"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-56567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56567"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-6482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6482"><a href="https://cupofjo.com/category/relationships/">###</a></li>
-<li id="menu-item-6499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6499"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-7002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7002"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-7008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7008"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-<li id="menu-item-7013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7013"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">###</a></li>
-</ul></div>			<div class="footer-social">
+			<div class="menu-footer-container">
+			
+<?php 
+wp_nav_menu( array(
+    'theme_location' => 'main-menu',
+    'container' => 'ul',
+	'menu_id'=> 'menu-footer',
+    'menu_class'=> 'menu'
+ ) );
+ ?>	
+			
+
+
+			</div>			
+<div class="footer-social">
 				<h3>Let's Hang Out</h3>
 				<div class="social-links">
 											<a href="https://www.facebook.com/###" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
@@ -225,7 +229,7 @@ var jpibfi_options = {"hover":{"siteTitle":"A Cup of Jo","image_selector":".jpib
 <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/jpibfi.client.js.download'; ?>"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
-var pollsL10n = {"ajax_url":"https:\/\/cupofjo.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+var pollsL10n = {"ajax_url":"http:\/\/ashfaqueabir.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/polls-js.js.download'; ?>"></script>
@@ -239,7 +243,7 @@ jQuery( infinite_scroll.contentSelector ).infinitescroll( infinite_scroll, funct
 <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets-blog/e-201827.js.download'; ?>" async="async" defer="defer"></script>
 <script type="text/javascript">
 	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:6.1',blog:'90732908',post:'0',tz:'-4',srv:'cupofjo.com'} ]);
+	_stq.push([ 'view', {v:'ext',j:'1:6.1',blog:'90732908',post:'0',tz:'-4',srv:'ashfaqueabir.com'} ]);
 	_stq.push([ 'clickTrackerInit', '90732908', '0' ]);
 </script>
 
