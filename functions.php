@@ -46,6 +46,11 @@ if ( ! function_exists( 'ashfaqueabir_setup' ) ) :
 		register_nav_menus( array(
 			'main-menu' => esc_html__( 'Primary', 'ashfaqueabir' ),
 		) );
+		
+		// This theme uses wp_nav_menu() in one location.
+		register_nav_menus( array(
+			'footer-menu' => esc_html__( 'Secondary', 'ashfaqueabir' ),
+		) );
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments

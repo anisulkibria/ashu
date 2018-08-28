@@ -18,9 +18,9 @@
 		<a href="<?php echo esc_url( get_permalink() );?>" rel="bookmark" title="A Secret Ingredient for Killer Guacamole"><h4 data-title="<?php the_title(); ?>" data-target="<?php echo esc_url( get_permalink() );?>" data-name="easy-pea-guacamole"><?php the_title(); ?></h4></a>
 		<div class="excerpt"><p><?php the_excerpt(); ?></p></div>
 		<div class="secondary-caption">
-			<span class="entry-date">May 2, 2018</span>
+			<span class="entry-date"><?php echo get_the_date(); ?></span>
 			<div class="mini-comments-link">
-				<a href="<?php echo esc_url( get_permalink() );?>#comments"><img src="<?php echo get_template_directory_uri() . '/assets-blog/comment-small.png'; ?>"> </a>
+				<a href="<?php echo esc_url( get_permalink() );?>#comments"><img src="<?php echo get_template_directory_uri() . '/assets-blog/comment-small.png'; ?>">  <?php echo get_comments_number(); ?></a>
 			</div>
 		</div>
 	</div>
