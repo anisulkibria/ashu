@@ -16,7 +16,7 @@
 <!--<base href="">--><base href=".">
 
 <title>Ashfaque Abir</title>
-<link rel="shortcut icon" type="image/x-icon" href="http://www.ashfaqueabir.com/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() . '/assets-blog/favicon.ico'; ?>">
 <link rel="canonical" href="http://www.ashfaqueabir.com/">
 <meta property="og:site_name" content="Ashfaque Abir">
 <meta property="og:title" content="About">

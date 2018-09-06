@@ -8,7 +8,7 @@
 			$catname = $category[0]->cat_name; echo $catname;?></title>
 
     <!-- favicon & links -->
-    <link rel="shortcut icon" href="https://cupofjo.com/wp-content/themes/cupofjo/coj-favicon.ico?v=2" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/assets-blog/favicon.ico'; ?>" type="image/x-icon">
     <link rel="pingback" href="https://cupofjo.com/xmlrpc.php">
     <!-- stylesheets are enqueued via functions.php -->
 

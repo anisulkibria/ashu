@@ -26,6 +26,13 @@
 									<a href="https://www.instagram.com/###" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
 							</div>
 							<a href="<?php echo esc_url( home_url( '/যোগাযোগ/' ) ); ?>" class="contact-page-link"><em>contact me</em></a>
+							
+							
+<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+	<ul id="sidebar">
+		<?php dynamic_sidebar( 'sidebar-1' ); ?>
+	</ul>
+<?php endif; ?>
 					
 		</aside>
 

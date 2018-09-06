@@ -7,7 +7,7 @@
     <title><?php the_title(); ?></title>
 
     <!-- favicon & links -->
-    <link rel="shortcut icon" href="https://cupofjo.com/wp-content/themes/cupofjo/coj-favicon.ico?v=2" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/assets-blog/favicon.ico'; ?>" type="image/x-icon">
     <link rel="pingback" href="https://cupofjo.com/xmlrpc.php">
     <!-- stylesheets are enqueued via functions.php -->
 
@@ -152,12 +152,12 @@ wp_nav_menu( array(
 	<h3><a href="https://cupofjo.com/category/food/">
 	<?php 	$category = get_the_category();
 			$catname = $category[0]->cat_name; echo $catname;?></a></h3>
-	<h2><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
+	<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
 	</h2>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
 	<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);?>
-				<input class="jpibfi" type="hidden"><p><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/"><img src="<?php echo $thumb_url[0]; ?>" alt="Grilled Radicchio Salad" width="1000" height="1250" class="alignnone size-full wp-image-178434" srcset="<?php echo $thumb_url[0]; ?> 1000w, <?php echo $thumb_url[0]; ?> 386w, <?php echo $thumb_url[0]; ?> 768w, <?php $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb_url; ?> 680w" sizes="(max-width: 1000px) 100vw, 1000px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2018/06/grilled-radicchio-salad/" data-jpibfi-post-title="<?php the_title(); ?>" data-jpibfi-src="<?php echo $thumb_url[0]; ?>"></a></p>
+				<input class="jpibfi" type="hidden"><p><a href="<?php the_permalink(); ?>"><img src="<?php echo $thumb_url[0]; ?>" alt="Grilled Radicchio Salad" width="1000" height="1250" class="alignnone size-full wp-image-178434" srcset="<?php echo $thumb_url[0]; ?> 1000w, <?php echo $thumb_url[0]; ?> 386w, <?php echo $thumb_url[0]; ?> 768w, <?php $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb_url; ?> 680w" sizes="(max-width: 1000px) 100vw, 1000px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="<?php the_permalink(); ?>" data-jpibfi-post-title="<?php the_title(); ?>" data-jpibfi-src="<?php echo $thumb_url[0]; ?>"></a></p>
 <?php 
 if ( have_posts() ) : while ( have_posts() ) : the_post();
   the_content();
@@ -168,9 +168,12 @@ endif;
 	</div><!-- .entry-content -->
 
 	
-	
-	
-	
+<?php
+// If comments are open or we have at least one comment, load up the comment template.
+ if ( comments_open() || get_comments_number() ) :
+     comments_template();
+ endif;
+?>	
 	
 	
 	
@@ -185,6 +188,7 @@ gridCaption();
 
 
 <?php get_sidebar(); ?>
+
 
 
 </div><!-- #main -->
