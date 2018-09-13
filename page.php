@@ -152,12 +152,11 @@ wp_nav_menu( array(
 	<h3><a href="https://cupofjo.com/category/food/">
 	<?php 	$category = get_the_category();
 			$catname = $category[0]->cat_name; echo $catname;?></a></h3>
-	<h2><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/" title="Permalink to This Salad Is a Flavor Explosion" rel="bookmark"><?php the_title(); ?></a>
+	<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
 	</h2>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
-	<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);?>
-				<input class="jpibfi" type="hidden"><p><a href="https://cupofjo.com/2018/06/grilled-radicchio-salad/"><img src="<?php echo $thumb_url[0]; ?>" alt="Grilled Radicchio Salad" width="1000" height="1250" class="alignnone size-full wp-image-178434" srcset="<?php echo $thumb_url[0]; ?> 1000w, <?php echo $thumb_url[0]; ?> 386w, <?php echo $thumb_url[0]; ?> 768w, <?php $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); echo $thumb_url; ?> 680w" sizes="(max-width: 1000px) 100vw, 1000px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://cupofjo.com/2018/06/grilled-radicchio-salad/" data-jpibfi-post-title="This Salad Is a Flavor Explosion" data-jpibfi-src="<?php echo $thumb_url[0]; ?>"></a></p>
+
 <?php 
 if ( have_posts() ) : while ( have_posts() ) : the_post();
   the_content();
@@ -168,9 +167,12 @@ endif;
 	</div><!-- .entry-content -->
 
 	
-	
-	
-	
+<?php
+// If comments are open or we have at least one comment, load up the comment template.
+ if ( comments_open() || get_comments_number() ) :
+     comments_template();
+ endif;
+?>	
 	
 	
 	
@@ -182,11 +184,14 @@ endif;
 gridCaption();
 //-->
 </script>
+
+
 <?php get_sidebar(); ?>
+
+
 
 </div><!-- #main -->
 
 </div><!-- #page -->
-
 
 <?php get_footer(); ?>

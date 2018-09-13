@@ -36,10 +36,10 @@ wp_nav_menu( array(
 <div class="footer-social">
 				<h3>Let's Hang Out</h3>
 				<div class="social-links">
-											<a href="https://www.facebook.com/###" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
-											<a href="https://twitter.com/###" target="_blank" class="social-link twitter"><i class="icon-twitter"></i></a>
-											<a href="https://www.pinterest.com/###" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
-											<a href="https://www.instagram.com/###" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
+											<a href="#" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
+											<a href="#" target="_blank" class="social-link twitter"><i class="icon-twitter"></i></a>
+											<a href="#" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
+											<a href="#" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
 									</div>
 			</div>
 		</div>

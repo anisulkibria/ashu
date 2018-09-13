@@ -20,12 +20,12 @@
 		
 		</aside><aside id="cup-of-jo-social-widget-2" class="widget widget_cup-of-jo-social-widget"><h4 class="widget-title">Let’s Hang Out</h4>		
 			<div class="social-links">
-									<a href="https://www.facebook.com/###" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
-									<a href="https://twitter.com/###" target="_blank" class="social-link twitter"><i class="icon-twitter"></i></a>
-									<a href="https://www.pinterest.com/###" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
-									<a href="https://www.instagram.com/###" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
+									<a href="#" target="_blank" class="social-link facebook"><i class="icon-facebook"></i></a>
+									<a href="#" target="_blank" class="social-link twitter"><i class="icon-twitter"></i></a>
+									<a href="#" target="_blank" class="social-link pinterest"><i class="icon-pinterest"></i></a>
+									<a href="#" target="_blank" class="social-link instagram"><i class="icon-instagram"></i></a>
 							</div>
-							<a href="<?php echo esc_url( home_url( '/যোগাযোগ/' ) ); ?>" class="contact-page-link"><em>contact me</em></a>
+							<a href="<?php echo esc_url( home_url( '/যোগাযোগ/' ) ); ?>" class="contact-page-link"><em>যোগাযোগ</em></a>
 							
 							
 <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
